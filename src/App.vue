@@ -1,26 +1,43 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+<NavView/>
+<HeroView/>
+<DescriptionView/>
+<ServicesView/>
+<ReviewView/>
+<ClientView/>
+<FooterView/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavView from './components/NavView.vue'
+import HeroView from './components/HeroView.vue'
+import DescriptionView from './components/DescriptionView.vue'
+import ServicesView from './components/ServicesView.vue'
+import ReviewView from './components/ReviewView.vue'
+import ClientView from './components/ClientView.vue'
+import FooterView from './components/FooterView.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavView,
+    HeroView,
+    DescriptionView,
+    ServicesView,
+    ReviewView,
+    ClientView,
+    FooterView,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+body, h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
 }
+
 </style>
