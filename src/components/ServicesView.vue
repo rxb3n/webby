@@ -27,7 +27,7 @@
             <div class="serv-card">
                 <img class="serv-img" src="../assets/serv3.webp" alt="">
                 <p class="bold">Website maintenance</p>
-                <p>Providing regular updates and support to keep your <br>website running smoothly and ensure maximum uptime <br>and security</p>
+                <p>Providing regular updates and support to keep your <br>website running smoothly and ensure maximum uptime and security</p>
                 <div class="serv-btn-container">
                     <button class="serv-btn">More info</button>
                 </div>
@@ -50,6 +50,7 @@
     color: white;
     background-color:#6247AA;
     font-family: 'Roboto', sans-serif;
+    padding-top: 3%; padding-bottom: 3%;
 }
 
 .serv-wrapper {
